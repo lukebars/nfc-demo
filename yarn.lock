@@ -992,7 +992,7 @@
 
 "@kilohealth/rn-freestylelibre-sdk@bitbucket:kilogrupe/kilo-rn-freestylelibre-sdk":
   version "0.0.1"
-  resolved "git+ssh://git@bitbucket.org/kilogrupe/kilo-rn-freestylelibre-sdk.git#a9bf7fa648db940cbd2f768500f12b5925d7d0ac"
+  resolved "git+ssh://git@bitbucket.org/kilogrupe/kilo-rn-freestylelibre-sdk.git#3d875f39a6fec32608e75cfbc60f659f7da7c438"
   dependencies:
     react-native-nfc-manager "^2.2.1"
 

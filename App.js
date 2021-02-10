@@ -42,6 +42,13 @@ class AppV2Iso15693 extends React.Component {
             ),
           'Activate patch',
         )}
+        {renderButton(
+          () =>
+            FreeStyleLibreSDK.getPatchInfo('tag state').then((x) =>
+              console.log(x),
+            ),
+          'Get sensor state',
+        )}
         {renderButton(FreeStyleLibreSDK.cleanUp, 'Clean up')}
       </View>
     );
